@@ -1,0 +1,7 @@
+cats_page.content:
+  path: '/swat/cats'
+  defaults:
+    _controller: '\Drupal\swat\Controller\CatsController::content'
+    _title: 'Hello'
+  requirements:
+    _permission: 'access content'
