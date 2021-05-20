@@ -47,3 +47,5 @@
 /robots.txt
 /update.php
 /web.config
+# Ignore directory node_modules in custom theme
+/web/themes/custom/swatcustom_theme/node_modules
