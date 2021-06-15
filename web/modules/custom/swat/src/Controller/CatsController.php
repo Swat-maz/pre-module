@@ -14,11 +14,15 @@ class CatsController extends ControllerBase {
    * @return array
    *  Return markup array.
    */
-  public function content() {
-    return [
-      '#type' => 'markup',
-      '#markup' => $this->t('Hello! You can add here a photo of your cat.'),
-    ];
-  }
+    public function content() {
+
+      $simpleform = \Drupal::formBuilder()->getForm('Drupal\swat\Form\CatsForm');
+
+      return [
+        '#type' => 'markup',
+        '#markup' => $this->t('Hello! You can add here a photo of your cat.'),
+        $simpleform,
+      ];
+    }
 
 }

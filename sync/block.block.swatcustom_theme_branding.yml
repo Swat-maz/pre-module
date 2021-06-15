@@ -1,0 +1,25 @@
+uuid: 80835174-0ee7-44a7-9541-d3d919666691
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - swatcustom_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: swatcustom_theme_branding
+theme: swatcustom_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
