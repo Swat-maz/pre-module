@@ -45,6 +45,19 @@ class CatsForm extends FormBase {
       '#required' => TRUE,
     ];
 
+    $form['image'] = array(
+      '#type' => 'managed_file',
+      '#title' => t('image'),
+      '#required' => TRUE,
+      '#upload_validators' => array(
+        'file_validate_extensions' => array('png jpg jpeg'),
+        'file_validate_size' => array(2097152),
+      ),
+      '#theme' => 'image_widget',
+      '#preview_image_style' => 'medium',
+      '#upload_location' => 'public://',
+    );
+
     $form['action']['#type'] = 'actions';
 
     $form['system_messages'] = [

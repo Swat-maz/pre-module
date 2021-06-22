@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f687f2-be5a-4b3a-ad90-af1022c67688" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/22-05-2021-tsk7.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/cat1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/cat2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/CatsForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/CatsForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/swat.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/swat.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/swatcustom_theme.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/swatcustom_theme.info.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +174,7 @@
       <workItem from="1623911618486" duration="599000" />
       <workItem from="1623912619322" duration="19153000" />
       <workItem from="1623996439793" duration="7477000" />
-      <workItem from="1624342406836" duration="16830000" />
+      <workItem from="1624342406836" duration="23322000" />
     </task>
     <servers />
   </component>
