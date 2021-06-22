@@ -22,15 +22,27 @@ class CatsForm extends FormBase {
 
   public function buildForm(array $form, FormStateInterface $form_state) {
 
+    $form['email'] = [
+      '#title' => $this->t('Your email:'),
+      '#type' => 'email',
+      '#description' => $this->t('Only contain Latin letters, an underscore, or a hyphen.'),
+      '#required' => TRUE,
+      '#ajax' => [
+        'callback' => '::myAjaxEmailCallback',
+        'event' => 'keyup',
+        'progress' => array(
+          'type' => 'throbber',
+//          'message' => t('Verifying email..'),
+        ),
+      ],
+      '#suffix' => '<div class="email-validation-message"></div>'
+    ];
+
     $form['title'] = [
       '#type' => 'textfield',
       '#title' => $this->t('Your cat’s name:'),
-      '#description' => $this->t('The minimum length of the name is 2 characters, and the maximum is 32 '),
+      '#description' => $this->t('The minimum length of the name is 2 characters, and the maximum is 32.'),
       '#required' => TRUE,
-//      '#ajax' => [
-//        'callback' => '::myAjaxCallback',
-//        'event' => 'change',
-//      ],
     ];
 
     $form['action']['#type'] = 'actions';
@@ -57,13 +69,16 @@ class CatsForm extends FormBase {
   }
   public function validateForm(array &$form, FormStateInterface $form_state) {
     if (!preg_match('/^[A-Za-z]*$/', $form_state->getValue('title'))){
-        $form_state->setErrorByName('title', $this->t('Use only letters A-Za-z'));
+      $form_state->setErrorByName('title', $this->t('For cat name use only letters A-Za-z'));
     }
     if (strlen($form_state->getValue('title')) < 2){
-        $form_state->setErrorByName('title', $this->t('Name is too short.'));
+      $form_state->setErrorByName('title', $this->t('Name is too short.'));
     }
     if (strlen($form_state->getValue('title')) > 32){
-      $form_state->setErrorByName('title', $this->t('Name is too looong.'));
+      $form_state->setErrorByName('title', $this->t('Name is too long.'));
+    }
+    if (filter_var($form_state->getValue('email'), FILTER_VALIDATE_EMAIL) && preg_match('/[#$%^&*()+=!\[\]\';,\/{}|":<>?~\\\\0-9]/', $form_state->getValue('email'))){
+      $form_state->setErrorByName('email', $this->t('Use only contain Latin letters, an underscore, or a hyphen'));
     }
     else {
       $this->messenger()->deleteAll();
@@ -85,6 +100,21 @@ class CatsForm extends FormBase {
     $ajax_response->addCommand(new HtmlCommand('#form-system-messages', $messages));
     return $ajax_response;
   }
+
+  public function myAjaxEmailCallback(array &$form, FormStateInterface $form_state) {
+    $response = new AjaxResponse();
+//    if (!preg_match('/^[A-Za-z]*$/', $form_state->getValue('email'))) {
+//      $response->addCommand(new HtmlCommand('.email-validation-message', 'This provider can lost our mail. Be care!'));
+//    }
+    if (filter_var($form_state->getValue('email'), FILTER_VALIDATE_EMAIL) && !preg_match('/[#$%^&*()+=!\[\]\';,\/{}|":<>?~\\\\0-9]/', $form_state->getValue('email'))) {
+      $response->addCommand(new HtmlCommand('#edit-email--description', 'Your email address is correct'));
+    }
+    else {
+      $response->addCommand(new HtmlCommand('#edit-email--description', 'VALUE IS NOT CORRECT'));
+    }
+    return $response;
+  }
+
   public function submitForm(array &$form, FormStateInterface $form_state) {
     $this->messenger()->addMessage($this->t('Your cat name "@name" save', ['@name' => $form_state->getValue('title')]));
   }
