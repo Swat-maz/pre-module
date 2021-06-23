@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f687f2-be5a-4b3a-ad90-af1022c67688" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.docksal/docksal.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.docksal/docksal.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22-05-2021-tsk7.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/CatsForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/CatsForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/cat1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/cat2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/swat.install" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/swat.install" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +167,7 @@
       <workItem from="1623912619322" duration="19153000" />
       <workItem from="1623996439793" duration="7477000" />
       <workItem from="1624342406836" duration="24188000" />
-      <workItem from="1624430098772" duration="5112000" />
+      <workItem from="1624430098772" duration="9236000" />
     </task>
     <servers />
   </component>

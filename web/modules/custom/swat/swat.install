@@ -22,12 +22,26 @@ function swat_schema() {
         'not null' => TRUE,
         'default' => 0,
       ),
-      'text' => array(
-        'description' => 'Text',
+      'name' => array(
+        'description' => 'Cats name',
+        'type' => 'varchar',
+        'length' => 32,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'email' => array(
+        'description' => 'User email',
         'type' => 'varchar',
         'length' => 255,
         'not null' => TRUE,
         'default' => '',
+      ),
+      'photo' => array(
+        'description' => 'Cats photo',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
       ),
       'timestamp' => array(
         'description' => 'Timestamp',
