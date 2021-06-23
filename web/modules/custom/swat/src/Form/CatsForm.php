@@ -47,7 +47,7 @@ class CatsForm extends FormBase {
 
     $form['image'] = array(
       '#type' => 'managed_file',
-      '#title' => t('image'),
+      '#title' => t('Image'),
       '#required' => TRUE,
       '#upload_validators' => array(
         'file_validate_extensions' => array('png jpg jpeg'),
