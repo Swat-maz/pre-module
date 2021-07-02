@@ -1,25 +1,38 @@
 <?php
+
 /**
- *@file
- *Contains \Drupal\swat\Form\CollectPhone.
+ * @file
+ *Contains \Drupal\swat\Form\CatsForm.
  */
+
 namespace Drupal\swat\Form;
 
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Ajax\AjaxResponse;
 use Drupal\Core\Ajax\HtmlCommand;
+use Drupal\file\Entity\File;
 use Drupal\Core\Messenger\MessengerInterface;
 
 /**
+ * Add my class.
+ *
  * @see \Drupal\Core\Form\FormBase
  */
 class CatsForm extends FormBase {
 
-  public function getFormId() {
+  private $currentTime;
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getFormId(): string {
     return 'cats_form';
   }
 
+  /**
+   * {@inheritdoc}
+   */
   public function buildForm(array $form, FormStateInterface $form_state) {
 
     $form['email'] = [
@@ -30,12 +43,11 @@ class CatsForm extends FormBase {
       '#ajax' => [
         'callback' => '::myAjaxEmailCallback',
         'event' => 'keyup',
-        'progress' => array(
+        'progress' => [
           'type' => 'throbber',
-//          'message' => t('Verifying email..'),
-        ),
+          // 'message' => t('Verifying email..'),
+        ],
       ],
-      '#suffix' => '<div class="email-validation-message"></div>'
     ];
 
     $form['title'] = [
@@ -45,25 +57,25 @@ class CatsForm extends FormBase {
       '#required' => TRUE,
     ];
 
-    $form['image'] = array(
+    $form['image'] = [
       '#type' => 'managed_file',
       '#title' => t('Image'),
       '#required' => TRUE,
-      '#upload_validators' => array(
-        'file_validate_extensions' => array('png jpg jpeg'),
-        'file_validate_size' => array(2097152),
-      ),
+      '#upload_validators' => [
+        'file_validate_extensions' => ['png jpg jpeg'],
+        'file_validate_size' => [2097152],
+      ],
       '#theme' => 'image_widget',
       '#preview_image_style' => 'medium',
-      '#upload_location' => 'public://',
-    );
-
-    $form['action']['#type'] = 'actions';
+      '#upload_location' => 'public://photochki',
+    ];
 
     $form['system_messages'] = [
       '#markup' => '<div id="form-system-messages"></div>',
       '#weight' => 100,
     ];
+
+    $form['action']['#type'] = 'actions';
 
     $form['action']['submit'] = [
       '#type' => 'submit',
@@ -75,22 +87,26 @@ class CatsForm extends FormBase {
         'progress' => [
           'type' => 'throbber',
         ],
-      ]
+      ],
     ];
 
     return $form;
   }
+
+  /**
+   * {@inheritdoc}
+   */
   public function validateForm(array &$form, FormStateInterface $form_state) {
-    if (!preg_match('/^[A-Za-z]*$/', $form_state->getValue('title'))){
+    if (!preg_match('/^[A-Za-z]*$/', $form_state->getValue('title'))) {
       $form_state->setErrorByName('title', $this->t('For cat name use only letters A-Za-z'));
     }
-    if (strlen($form_state->getValue('title')) < 2){
+    if (strlen($form_state->getValue('title')) < 2) {
       $form_state->setErrorByName('title', $this->t('Name is too short.'));
     }
-    if (strlen($form_state->getValue('title')) > 32){
+    if (strlen($form_state->getValue('title')) > 32) {
       $form_state->setErrorByName('title', $this->t('Name is too long.'));
     }
-    if (filter_var($form_state->getValue('email'), FILTER_VALIDATE_EMAIL) && preg_match('/[#$%^&*()+=!\[\]\';,\/{}|":<>?~\\\\0-9]/', $form_state->getValue('email'))){
+    if (filter_var($form_state->getValue('email'), FILTER_VALIDATE_EMAIL) && preg_match('/[#$%^&*()+=!\[\]\';,\/{}|":<>?~\\\\0-9]/', $form_state->getValue('email'))) {
       $form_state->setErrorByName('email', $this->t('Use only contain Latin letters, an underscore, or a hyphen'));
     }
     else {
@@ -98,6 +114,9 @@ class CatsForm extends FormBase {
     }
   }
 
+  /**
+   * Ajax submit button.
+   */
   public function myAjaxCallback(array &$form, FormStateInterface $form_state) {
     $ajax_response = new AjaxResponse();
     $message = [
@@ -114,11 +133,11 @@ class CatsForm extends FormBase {
     return $ajax_response;
   }
 
+  /**
+   * Validation email with ajax.
+   */
   public function myAjaxEmailCallback(array &$form, FormStateInterface $form_state) {
     $response = new AjaxResponse();
-//    if (!preg_match('/^[A-Za-z]*$/', $form_state->getValue('email'))) {
-//      $response->addCommand(new HtmlCommand('.email-validation-message', 'This provider can lost our mail. Be care!'));
-//    }
     if (filter_var($form_state->getValue('email'), FILTER_VALIDATE_EMAIL) && !preg_match('/[#$%^&*()+=!\[\]\';,\/{}|":<>?~\\\\0-9]/', $form_state->getValue('email'))) {
       $response->addCommand(new HtmlCommand('#edit-email--description', 'Your email address is correct'));
     }
@@ -128,8 +147,29 @@ class CatsForm extends FormBase {
     return $response;
   }
 
+  /**
+   * {@inheritdoc}
+   *
+   * @throws \Drupal\Core\Entity\EntityStorageException
+   */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-    $this->messenger()->addMessage($this->t('Your cat name "@name" save', ['@name' => $form_state->getValue('title')]));
+    $form_state->setUserInput([]);
+    $image = $form_state->getValue('image');
+    $file = File::load($image[0]);
+    $file->setPermanent();
+    $file->save();
+    \Drupal::service('database')->insert('swat')
+      ->fields([
+        'name' => $form_state->getValue('title'),
+        'uid' => $this->currentUser()->id(),
+        'email' => $form_state->getValue('email'),
+        'photo' => $form_state->getValue('image')[0],
+        // 'created' => time(),
+//        'timestamp' => define('REQUEST_TIME', (int) $_SERVER['REQUEST_TIME']),
+      ])
+      ->execute();
+    $this->messenger()
+      ->addMessage($this->t('Your cat name "@name" save', ['@name' => $form_state->getValue('title')]));
   }
-}
 
+}
