@@ -12,7 +12,6 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Ajax\AjaxResponse;
 use Drupal\Core\Ajax\HtmlCommand;
 use Drupal\file\Entity\File;
-use Drupal\Core\Messenger\MessengerInterface;
 
 /**
  * Add my class.
@@ -20,8 +19,6 @@ use Drupal\Core\Messenger\MessengerInterface;
  * @see \Drupal\Core\Form\FormBase
  */
 class CatsForm extends FormBase {
-
-  private $currentTime;
 
   /**
    * {@inheritdoc}
@@ -164,12 +161,11 @@ class CatsForm extends FormBase {
         'uid' => $this->currentUser()->id(),
         'email' => $form_state->getValue('email'),
         'photo' => $form_state->getValue('image')[0],
-        // 'created' => time(),
-//        'timestamp' => define('REQUEST_TIME', (int) $_SERVER['REQUEST_TIME']),
       ])
       ->execute();
     $this->messenger()
       ->addMessage($this->t('Your cat name "@name" save', ['@name' => $form_state->getValue('title')]));
+    $form_state->setRebuild(FALSE);
   }
 
 }
