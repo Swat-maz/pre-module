@@ -165,7 +165,7 @@ class CatsForm extends FormBase {
       ->execute();
     $this->messenger()
       ->addMessage($this->t('Your cat name "@name" save', ['@name' => $form_state->getValue('title')]));
-    $form_state->setRebuild(FALSE);
+    $form_state->setRebuild(TRUE);
   }
 
 }

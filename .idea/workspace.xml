@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f687f2-be5a-4b3a-ad90-af1022c67688" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.docksal/docksal.env" beforeDir="false" afterPath="$PROJECT_DIR$/.docksal/docksal.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/src/Controller/CatsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/src/Controller/CatsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/CatsForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/CatsForm.php" afterDir="false" />
@@ -33,6 +34,7 @@
     <joomlaConfigPath />
     <joomlaPath />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="premodle.docksal" id="3ffd13c7-cce9-46c7-847e-9a800e470774" name="premodle.docksal" use_path_mappings="true">
@@ -153,7 +155,7 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.php.debug.xdebug.cloud" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -166,6 +168,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/modules/custom/swat/src/Controller" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="cats" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" server_name="premodle.docksal" start_url="/swat/cats">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -197,7 +204,8 @@
       <workItem from="1625120026261" duration="4062000" />
       <workItem from="1625124873959" duration="20350000" />
       <workItem from="1625205652113" duration="15054000" />
-      <workItem from="1625464956715" duration="18204000" />
+      <workItem from="1625464956715" duration="18806000" />
+      <workItem from="1625555766097" duration="12865000" />
     </task>
     <servers />
   </component>
