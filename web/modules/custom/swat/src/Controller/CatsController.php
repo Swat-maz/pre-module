@@ -17,13 +17,13 @@ class CatsController extends ControllerBase {
    * @return array
    *   Return markup array.
    */
-  public function content() {
+  public function load() {
     $simpleform = \Drupal::formBuilder()->getForm('Drupal\swat\Form\CatsForm');
     return [
-      '#type' => 'markup',
-      '#markup' => $this->t('Hello! You can add here a photo of your cat.'),
+//      '#type' => 'markup',
+//      '#markup' => $this->t('Hello! You can add here a photo of your cat.'),
       $simpleform,
-      $this->show(),
+//      $this->show(),
     ];
   }
 
@@ -31,7 +31,7 @@ class CatsController extends ControllerBase {
    * Show information from db.
    */
   public function show() {
-
+    $form = $this->load();
     $conn = Database::getConnection();
     $query = $conn->select('swat', 's');
     $query->fields('s', ['id', 'name', 'email', 'timestamp', 'photo']);
@@ -58,7 +58,12 @@ class CatsController extends ControllerBase {
         '#suffix' => "<p>$timestamp</p></div>",
       ];
     }
-    return $result;
+    return [
+      '#theme' => 'swattcat',
+      '#items' => $result,
+      '#title' => $this->t('Hello! You can add here a photo of your cat.'),
+      '#form' => $form,
+    ];
   }
 
 }
