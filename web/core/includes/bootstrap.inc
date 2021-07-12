@@ -310,7 +310,7 @@ function _drupal_error_handler($error_level, $message, $filename = NULL, $line =
  *
  * Uncaught exceptions are those not enclosed in a try/catch block. They are
  * always fatal: the execution of the script will stop as soon as the exception
- * handler exits.
+ * handler exits.[
  *
  * @param \Exception|\Throwable $exception
  *   The exception object that was thrown.
