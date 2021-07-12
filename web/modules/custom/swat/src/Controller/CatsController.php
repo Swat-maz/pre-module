@@ -24,20 +24,18 @@ class CatsController extends ControllerBase {
       '#markup' => $this->t('Hello! You can add here a photo of your cat.'),
       $simpleform,
       $this->show(),
-
-      //      $this->report(),
     ];
   }
 
+  /**
+   * Show information from db.
+   */
   public function show() {
 
     $conn = Database::getConnection();
-
     $query = $conn->select('swat', 's');
-//    ->condition('id', $id);
     $query->fields('s', ['id', 'name', 'email', 'timestamp', 'photo']);
     $query->orderBy('s.timestamp', 'DESC');
-//    $query->range(0, 99);
     $data = $query->execute()->fetchAllAssoc('id');
     $data = json_decode(json_encode($data), TRUE);
     $result = [];
@@ -46,7 +44,6 @@ class CatsController extends ControllerBase {
       $email = $value['email'];
       $timestamp = $value['timestamp'];
       $file = File::load($value['photo']);
-      //    $picture = $file->getFileUri();
       $picture = [
         '#type' => 'image',
         '#theme' => 'image_style',

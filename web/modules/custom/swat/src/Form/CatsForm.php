@@ -1,8 +1,9 @@
 <?php
 
 /**
+ * Contains \Drupal\swat\Form\CatsForm.
+ *
  * @file
- *Contains \Drupal\swat\Form\CatsForm.
  */
 
 namespace Drupal\swat\Form;
@@ -39,10 +40,9 @@ class CatsForm extends FormBase {
       '#required' => TRUE,
       '#ajax' => [
         'callback' => '::myAjaxEmailCallback',
-        'event' => 'keyup',
+        'event' => 'change',
         'progress' => [
           'type' => 'throbber',
-          // 'message' => t('Verifying email..'),
         ],
       ],
     ];
