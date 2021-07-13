@@ -20,10 +20,7 @@ class CatsController extends ControllerBase {
   public function load() {
     $simpleform = \Drupal::formBuilder()->getForm('Drupal\swat\Form\CatsForm');
     return [
-//      '#type' => 'markup',
-//      '#markup' => $this->t('Hello! You can add here a photo of your cat.'),
       $simpleform,
-//      $this->show(),
     ];
   }
 
@@ -39,10 +36,13 @@ class CatsController extends ControllerBase {
     $data = $query->execute()->fetchAllAssoc('id');
     $data = json_decode(json_encode($data), TRUE);
     $result = [];
+//    date_default_timezone_set("America/Los_Angeles");
+    $timezone = idate("Z");
     foreach ($data as $value) {
       $full_name = $value['name'];
       $email = $value['email'];
       $timestamp = $value['timestamp'];
+      $time = date('d/m/Y G:i:s', $timestamp + $timezone);
       $file = File::load($value['photo']);
       $picture = [
         '#type' => 'image',
@@ -51,11 +51,11 @@ class CatsController extends ControllerBase {
         '#uri' => $file->getFileUri(),
       ];
       $result[] = [
-        '#type' => 'markup',
-        '#markup' => "<div class='swatshow'><h3>$full_name</h3>
-                    <p>$email</p>",
-        $picture,
-        '#suffix' => "<p>$timestamp</p></div>",
+        "name" => $full_name,
+        "email" => $email,
+        "photo" => $picture,
+        "time" => $time,
+        "uri" => file_url_transform_relative(file_create_url($file->getFileUri())),
       ];
     }
     return [

@@ -161,6 +161,7 @@ class CatsForm extends FormBase {
         'uid' => $this->currentUser()->id(),
         'email' => $form_state->getValue('email'),
         'photo' => $form_state->getValue('image')[0],
+        'timestamp' => time(),
       ])
       ->execute();
     $this->messenger()

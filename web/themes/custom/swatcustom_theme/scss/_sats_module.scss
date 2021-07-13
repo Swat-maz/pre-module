@@ -1,0 +1,50 @@
+.catscontent{
+  .dbshow{
+    text-align: center;
+    font-size: 2rem;
+    .row{
+      &.head, &.body{
+        background: rgb(235,80,78);
+        background: linear-gradient(90deg, rgba(235,80,78,0.8477591720281863) 20%, rgba(255,255,255,1) 50%, rgba(98,51,214,0.85) 80%);
+        border-radius: 30px;
+        margin: 20px 0;
+      }
+      &.head{
+        font-size: 1.7rem;
+        padding: 15px 0;
+        width: 80%;
+        margin: 0 auto;
+      }
+      &.body{
+        padding: 10px 0;
+        .left-side{
+          color: $color2;
+          .cat-photo{
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+            margin: 0 auto;
+            border-radius: 50%;
+            max-width: 400px;
+            height: 400px;
+            overflow: hidden;
+          }
+        }
+        .right-side{
+          color: $color1;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+        }
+      }
+    }
+    .cat-info{
+      color: $color2;
+    }
+    .author-info{
+      color: $color1;
+    }
+  }
+}

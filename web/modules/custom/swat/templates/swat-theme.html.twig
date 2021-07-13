@@ -1,3 +1,27 @@
+<div class="catscontent">
   {{ form }}
-{#  {% for s in items %}#}
-  {{ items }}
+  <div class="dbshow">
+    <div class="row head">
+      <div class="col-6 cat-info">
+        {{ 'Information about the cat:'|t }}
+      </div>
+      <div class="col-6 author-info">
+        {{ 'Information about the author:'|t }}
+      </div>
+    </div>
+    {% for s in items %}
+      <div class="row body">
+        <div class="left-side col-6">
+          <div class="cat-name">{{ s.name }}</div>
+          <div class="cat-photo">
+            <a target="_blank" href="{{ s.uri }}">{{ s.photo }}</a>
+          </div>
+        </div>
+        <div class="right-side col-6">
+          <div class="cat-user-email">{{ s.email }}</div>
+          <div class="cat-add-time">{{ s.time }}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
