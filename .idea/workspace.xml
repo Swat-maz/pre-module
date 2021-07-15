@@ -2,15 +2,299 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35f687f2-be5a-4b3a-ad90-af1022c67688" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tsk-11.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/swat/js/swat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/swat/swat.libraries.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat1_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat1_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat2_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat2_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat2_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat2_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat3_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat3_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat3_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat3_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat3_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat3_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat3_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat4_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat4_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat4_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat4_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat4_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat4_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat5_10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat5_12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat5_13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat5_5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat5_6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat5_7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat5_8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat5_9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/admin_toolbar_tools.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/automated_cron.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_account_menu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_branding.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_breadcrumbs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_footer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_help.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_local_actions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_local_tasks.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_main_menu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_messages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_page_title.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_powered.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_search.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bartik_tools.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_account_menu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_branding.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_breadcrumbs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_footer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_help.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_local_actions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_local_tasks.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_main_menu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_messages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_page_title.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_powered.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_search.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.bootstrap_barrio_tools.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.seven_breadcrumbs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.seven_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.seven_help.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.seven_local_actions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.seven_messages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.seven_page_title.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.seven_primary_local_tasks.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.seven_secondary_local_tasks.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_account_menu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_branding.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_breadcrumbs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_footer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_help.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_local_actions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_local_tasks.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_main_menu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_messages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_page_title.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_powered.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_search.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block.block.swatcustom_theme_tools.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/block_content.type.basic.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/bootstrap_barrio.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/comment.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/comment.type.comment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/contact.form.feedback.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/contact.form.personal.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/contact.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.comment.comment.changed.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.comment.comment.created.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.comment.comment.homepage.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.comment.comment.hostname.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.comment.comment.mail.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.comment.comment.name.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.comment.comment.status.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.comment.comment.subject.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.comment.comment.uid.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.node.page.promote.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.shortcut.default.title.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.taxonomy_term.tags.changed.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.taxonomy_term.tags.description.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.taxonomy_term.tags.name.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.taxonomy_term.tags.path.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.taxonomy_term.tags.status.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.base_field_override.user.user.changed.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.date_format.fallback.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.date_format.html_date.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.date_format.html_datetime.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.date_format.html_month.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.date_format.html_time.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.date_format.html_week.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.date_format.html_year.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.date_format.html_yearless_date.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.date_format.long.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.date_format.medium.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.date_format.short.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_form_display.block_content.basic.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_form_display.comment.comment.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_form_display.node.article.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_form_display.node.page.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_form_display.user.user.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_form_mode.user.register.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_display.block_content.basic.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_display.comment.comment.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_display.node.article.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_display.node.article.rss.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_display.node.article.teaser.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_display.node.page.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_display.node.page.teaser.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_display.user.user.compact.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_display.user.user.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_mode.block_content.full.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_mode.comment.full.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_mode.node.full.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_mode.node.rss.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_mode.node.search_index.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_mode.node.search_result.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_mode.node.teaser.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_mode.taxonomy_term.full.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_mode.user.compact.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.entity_view_mode.user.full.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.extension.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/core.menu.static_menu_link_overrides.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/dblog.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/editor.editor.basic_html.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/editor.editor.full_html.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.field.block_content.basic.body.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.field.comment.comment.comment_body.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.field.node.article.body.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.field.node.article.comment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.field.node.article.field_image.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.field.node.article.field_tags.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.field.node.page.body.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.field.user.user.user_picture.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.storage.block_content.body.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.storage.comment.comment_body.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.storage.node.body.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.storage.node.comment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.storage.node.field_image.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.storage.node.field_tags.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field.storage.user.user_picture.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/field_ui.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/file.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/filter.format.basic_html.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/filter.format.full_html.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/filter.format.plain_text.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/filter.format.restricted_html.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/filter.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/image.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/image.style.large.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/image.style.medium.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/image.style.thumbnail.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/image.style.wide.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/menu_ui.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/node.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/node.type.article.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/node.type.page.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/rdf.mapping.comment.comment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/rdf.mapping.node.article.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/rdf.mapping.node.page.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/rdf.mapping.taxonomy_term.tags.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/rdf.mapping.user.user.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/search.page.node_search.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/search.page.user_search.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/search.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/seven.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/shortcut.set.default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/swatcustom_theme.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.comment_delete_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.comment_publish_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.comment_save_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.comment_unpublish_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.node_delete_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.node_make_sticky_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.node_make_unsticky_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.node_promote_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.node_publish_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.node_save_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.node_unpromote_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.node_unpublish_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.taxonomy_term_publish_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.taxonomy_term_unpublish_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.user_add_role_action.administrator.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.user_block_user_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.user_cancel_user_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.user_remove_role_action.administrator.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.action.user_unblock_user_action.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.authorize.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.cron.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.date.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.diff.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.file.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.image.gd.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.image.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.logging.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.mail.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.maintenance.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.menu.account.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.menu.admin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.menu.footer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.menu.main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.menu.tools.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.performance.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.rss.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.site.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.theme.global.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/system.theme.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/taxonomy.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/taxonomy.vocabulary.tags.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/text.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/tour.tour.block-layout.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/tour.tour.views-ui.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/update.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/user.flood.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/user.mail.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/user.role.administrator.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/user.role.anonymous.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/user.role.authenticated.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/user.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.archive.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.block_content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.comment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.comments_recent.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.content.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.content_recent.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.files.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.frontpage.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.glossary.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.taxonomy_term.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.user_admin_people.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.watchdog.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.who_s_new.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sync/views.view.who_s_online.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/src/Controller/CatsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/src/Controller/CatsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/CatsForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/CatsForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/swat.install" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/swat.install" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/templates/swat-theme.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/templates/swat-theme.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/scss/import.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/scss/import.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/scss/mixins.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +323,6 @@
     <joomlaConfigPath />
     <joomlaPath />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="premodle.docksal" id="3ffd13c7-cce9-46c7-847e-9a800e470774" name="premodle.docksal" use_path_mappings="true">
@@ -220,7 +503,10 @@
       <workItem from="1626073102798" duration="366000" />
       <workItem from="1626073510388" duration="117000" />
       <workItem from="1626073882415" duration="15660000" />
-      <workItem from="1626156688813" duration="18801000" />
+      <workItem from="1626156688813" duration="19729000" />
+      <workItem from="1626246315510" duration="3228000" />
+      <workItem from="1626250210791" duration="14626000" />
+      <workItem from="1626329122392" duration="8335000" />
     </task>
     <servers />
   </component>
@@ -243,15 +529,6 @@
     <wordpressPath />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/web/modules/custom/swat/src/Controller/CatsController.php</url>
-          <line>61</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
         <watch expression="$form_state-&gt;build_info[&quot;callback_object&quot;]-&gt;stringTranslation" />

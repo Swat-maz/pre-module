@@ -1,0 +1,22 @@
+uuid: 42bddfc1-b77f-4dcd-a9de-9b24e1fab81f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - swatcustom_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: swatcustom_theme_help
+theme: swatcustom_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

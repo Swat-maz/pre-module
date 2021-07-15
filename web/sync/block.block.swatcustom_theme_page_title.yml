@@ -1,0 +1,20 @@
+uuid: 847ca0fd-84d5-4e0b-96cc-63e3a584a13b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - swatcustom_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: swatcustom_theme_page_title
+theme: swatcustom_theme
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

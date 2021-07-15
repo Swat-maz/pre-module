@@ -8,6 +8,7 @@
 
 namespace Drupal\swat\Form;
 
+use Drupal\Core\Ajax\RedirectCommand;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Ajax\AjaxResponse;
@@ -32,7 +33,6 @@ class CatsForm extends FormBase {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-
     $form['email'] = [
       '#title' => $this->t('Your email:'),
       '#type' => 'email',
@@ -127,6 +127,8 @@ class CatsForm extends FormBase {
     ];
     $messages = \Drupal::service('renderer')->render($message);
     $ajax_response->addCommand(new HtmlCommand('#form-system-messages', $messages));
+    if (!isset($message['#message_list']['error']))
+    $ajax_response->addCommand(new RedirectCommand('/swat/cats'));
     return $ajax_response;
   }
 
@@ -166,7 +168,7 @@ class CatsForm extends FormBase {
       ->execute();
     $this->messenger()
       ->addMessage($this->t('Your cat name "@name" save', ['@name' => $form_state->getValue('title')]));
-    $form_state->setRebuild(TRUE);
+    $form_state->setRebuild(FALSE);
   }
 
 }

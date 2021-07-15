@@ -36,13 +36,11 @@ class CatsController extends ControllerBase {
     $data = $query->execute()->fetchAllAssoc('id');
     $data = json_decode(json_encode($data), TRUE);
     $result = [];
-//    date_default_timezone_set("America/Los_Angeles");
-    $timezone = idate("Z");
     foreach ($data as $value) {
       $full_name = $value['name'];
       $email = $value['email'];
       $timestamp = $value['timestamp'];
-      $time = date('d/m/Y G:i:s', $timestamp + $timezone);
+      $time = date('d/m/Y G:i:s', $timestamp);
       $file = File::load($value['photo']);
       $picture = [
         '#type' => 'image',
