@@ -5,3 +5,14 @@ cats_page.content:
     _title: 'Hello'
   requirements:
     _permission: 'access content'
+cats_page.delete:
+  path: '/swat/cats/delete/{id}'
+  defaults:
+    _form: '\Drupal\swat\Form\ConfirmDeleteForm'
+    _title: 'Delete record?'
+  requirements:
+    _permission: 'administer site configuration'
+#  options:
+#    parameters:
+#      id:
+#        type: entity:id

@@ -1,3 +1,3 @@
-$(document).ready(function () {
-  $("input").reset(0);
-})
+// $(document).ready(function () {
+//   $("input").reset(0);
+// })

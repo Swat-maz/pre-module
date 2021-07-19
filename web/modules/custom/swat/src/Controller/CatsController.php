@@ -4,6 +4,8 @@ namespace Drupal\swat\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Database\Database;
+use Drupal\Core\Form\FormBase;
+use Drupal\Core\Form\FormStateInterface;
 use Drupal\file\Entity\File;
 
 /**
@@ -38,6 +40,7 @@ class CatsController extends ControllerBase {
     $result = [];
     foreach ($data as $value) {
       $full_name = $value['name'];
+      $id = $value['id'];
       $email = $value['email'];
       $timestamp = $value['timestamp'];
       $time = date('d/m/Y G:i:s', $timestamp);
@@ -49,6 +52,7 @@ class CatsController extends ControllerBase {
         '#uri' => $file->getFileUri(),
       ];
       $result[] = [
+        "id" => $id,
         "name" => $full_name,
         "email" => $email,
         "photo" => $picture,

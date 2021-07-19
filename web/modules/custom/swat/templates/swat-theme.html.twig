@@ -1,4 +1,4 @@
-{#{{ attach_library('swat/swat') }}#}
+{{ attach_library('swat/swat') }}
 <div class="catscontent">
   {{ form }}
   {% if items %}
@@ -23,6 +23,12 @@
           <div class="cat-user-email">{{ s.email }}</div>
           <div class="cat-add-time">{{ s.time }}</div>
         </div>
+        {% if user.hasPermission('administrator') %}
+          <div class="buttons">
+            <a class="btn delete btn-outline-danger use-ajax" data-dialog-type="modal" data-dialog-options="{&quot;width&quot;:400}" href="/swat/cats/delete/{{ s.id }}?destination={{ path('cats_page.content') }}">Delete</a>
+            <a class="btn edit btn-outline-warning use-ajax" data-dialog-type="modal" data-dialog-options="{&quot;width&quot;:400}" href="{{ path('cats_page.content') }}">Edit</a>
+          </div>
+        {% endif %}
       </div>
     {% endfor %}
   </div>
