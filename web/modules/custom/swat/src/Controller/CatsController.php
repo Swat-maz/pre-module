@@ -4,8 +4,6 @@ namespace Drupal\swat\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Database\Database;
-use Drupal\Core\Form\FormBase;
-use Drupal\Core\Form\FormStateInterface;
 use Drupal\file\Entity\File;
 
 /**

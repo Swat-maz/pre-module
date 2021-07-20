@@ -3,75 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="35f687f2-be5a-4b3a-ad90-af1022c67688" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/js/swat.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/js/swat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/src/Controller/CatsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/src/Controller/CatsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/ConfirmDeleteForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/ConfirmDeleteForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/swat.routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/swat.routing.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/templates/swat-theme.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/templates/swat-theme.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/cat3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/cat3_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/cat3_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/cat3_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/cat4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/cat4_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/cat5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/cat5_0.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat1_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat2_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat3_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_0.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_12.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_13.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat5_9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/макет десктоп.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/макет мобайл.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/scss/_sats_module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/swatcustom_theme/scss/_sats_module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat2_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat2_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat4_4.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +153,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/modules/custom/swat/src/Form" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -225,6 +166,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/modules/custom/swat/src/Form" />
       <recent name="$PROJECT_DIR$/web/modules/custom/swat/src/Controller" />
       <recent name="$PROJECT_DIR$/web/modules/custom/swat/src" />
       <recent name="$PROJECT_DIR$/web/sites/default" />
@@ -285,7 +227,8 @@
       <workItem from="1626250210791" duration="14626000" />
       <workItem from="1626329122392" duration="17787000" />
       <workItem from="1626416463999" duration="16589000" />
-      <workItem from="1626675761925" duration="8284000" />
+      <workItem from="1626675761925" duration="24322000" />
+      <workItem from="1626761130114" duration="6495000" />
     </task>
     <servers />
   </component>
@@ -311,6 +254,7 @@
     <watches-manager>
       <configuration name="index.php">
         <watch expression="$form_state-&gt;build_info[&quot;callback_object&quot;]-&gt;stringTranslation" />
+        <watch expression="$form[&quot;image&quot;][&quot;#value&quot;]-&gt;isSyncing" />
       </configuration>
     </watches-manager>
   </component>

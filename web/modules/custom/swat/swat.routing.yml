@@ -12,7 +12,10 @@ cats_page.delete:
     _title: 'Delete record?'
   requirements:
     _permission: 'administer site configuration'
-#  options:
-#    parameters:
-#      id:
-#        type: entity:id
+cats_page.edit:
+  path: '/swat/cats/edit/{id}'
+  defaults:
+    _form: '\Drupal\swat\Form\EditForm'
+    _title: 'Edit record'
+  requirements:
+    _permission: 'administer site configuration'

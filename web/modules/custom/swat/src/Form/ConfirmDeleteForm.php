@@ -11,7 +11,6 @@ namespace Drupal\swat\Form;
 use Drupal\Core\Form\ConfirmFormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
-use Drupal\file\Entity\File;
 
 /**
  * Add my class to delete info from db.
@@ -19,6 +18,7 @@ use Drupal\file\Entity\File;
  * @see \Drupal\Core\Form\FormBase
  */
 class ConfirmDeleteForm extends ConfirmFormBase {
+
   /**
    * ID of the item to delete.
    *
