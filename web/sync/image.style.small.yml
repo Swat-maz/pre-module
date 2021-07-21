@@ -1,0 +1,15 @@
+uuid: 8e298f41-5d17-4ca9-a235-d4a9967aaeed
+langcode: en
+status: true
+dependencies: {  }
+name: small
+label: small
+effects:
+  e3b197e5-20f0-45f8-85e3-fe3602f0c054:
+    uuid: e3b197e5-20f0-45f8-85e3-fe3602f0c054
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      anchor: center-center

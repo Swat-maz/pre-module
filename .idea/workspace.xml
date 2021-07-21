@@ -3,16 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="35f687f2-be5a-4b3a-ad90-af1022c67688" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/src/Controller/CatsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/src/Controller/CatsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/ConfirmDeleteForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/ConfirmDeleteForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/EditForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/src/Form/EditForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/swat.routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/swat.routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/templates/swat-theme.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/swat/templates/swat-theme.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/swat/test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat1_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat1_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat2_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat2_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/cat4_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/photochki/cat4_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/макет десктоп.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/styles/large/public/photochki/макет мобайл.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +36,7 @@
     <joomlaConfigPath />
     <joomlaPath />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="premodle.docksal" id="3ffd13c7-cce9-46c7-847e-9a800e470774" name="premodle.docksal" use_path_mappings="true">
@@ -161,7 +157,8 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.php.debug.xdebug.cloud" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="settings.php.quality.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -228,7 +225,8 @@
       <workItem from="1626329122392" duration="17787000" />
       <workItem from="1626416463999" duration="16589000" />
       <workItem from="1626675761925" duration="24322000" />
-      <workItem from="1626761130114" duration="6495000" />
+      <workItem from="1626761130114" duration="22401000" />
+      <workItem from="1626848454026" duration="18731000" />
     </task>
     <servers />
   </component>
@@ -249,14 +247,6 @@
   </component>
   <component name="WordPressConfiguration">
     <wordpressPath />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="index.php">
-        <watch expression="$form_state-&gt;build_info[&quot;callback_object&quot;]-&gt;stringTranslation" />
-        <watch expression="$form[&quot;image&quot;][&quot;#value&quot;]-&gt;isSyncing" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

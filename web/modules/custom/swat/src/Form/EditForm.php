@@ -171,8 +171,9 @@ class EditForm extends FormBase {
     ];
     $messages = \Drupal::service('renderer')->render($message);
     $ajax_response->addCommand(new HtmlCommand('#form-system-messages', $messages));
-    if (!isset($message['#message_list']['error']))
+    if (!isset($message['#message_list']['error'])) {
       $ajax_response->addCommand(new RedirectCommand('/swat/cats'));
+    }
     return $ajax_response;
   }
 

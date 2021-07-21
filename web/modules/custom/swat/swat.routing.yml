@@ -19,3 +19,11 @@ cats_page.edit:
     _title: 'Edit record'
   requirements:
     _permission: 'administer site configuration'
+swat.admin_page:
+  path: '/admin/structure/cats/list'
+  defaults:
+    _form: '\Drupal\swat\Form\AdminForm'
+    _title: 'example'
+    _template: 'swat-theme'
+  requirements:
+    _permission: 'administer site configuration'
